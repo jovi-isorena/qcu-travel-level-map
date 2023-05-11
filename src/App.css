@@ -79,8 +79,8 @@ body {
 
 .Map-padding {
   background-color: #9dc3fb;
-  padding-top: 20px;
-  padding-bottom: 20;
+  padding-top: 10px;
+  padding-bottom: 10;
 }
 
 .province-layer:hover {
@@ -97,7 +97,7 @@ svg#svg574 .province-layer path:hover {
 
 .level-menu {
   background-color: white;
-  width: 200px;
+  width: 300px;
   border-style: solid;
   border-width: thin;
   border-radius: 10px;
@@ -106,25 +106,30 @@ svg#svg574 .province-layer path:hover {
   z-index: 1000;
 }
 
-.level-5:hover {
+.level-6:hover {
   cursor: pointer;
   background-color: #e84c3d;
 }
-
-.level-4:hover {
+.level-5:hover {
   cursor: pointer;
   background-color: #d58337;
 }
 
-.level-3:hover {
+.level-4:hover {
   cursor: pointer;
   background-color: #f3c218;
 }
 
-.level-2:hover {
+.level-3:hover {
   cursor: pointer;
   background-color: #30cc70;
 }
+
+.level-2:hover {
+  cursor: pointer;
+  background-color: #3598db;
+}
+
 
 .menu-header {
   font-weight: bold;
@@ -147,7 +152,7 @@ svg#svg574 .province-layer path:hover {
 
 .level-1:hover {
   cursor: pointer;
-  background-color: #3598db;
+  background-color: #99ccff;
 }
 
 .level-0 {

@@ -128,7 +128,7 @@ const PhilippinesMapJSX = ({
 				>
 					<rect
 						id="rect385"
-						width="176.299"
+						width="196.299"
 						height="132.998"
 						x="544.363"
 						y="159.803"
@@ -237,7 +237,7 @@ const PhilippinesMapJSX = ({
 							strokeWidth="0.75"
 							fontSize="16"
 						>
-              Level: 4
+							{/* Level: 4 */}
 						</tspan>
 					</text>
 					<text
@@ -262,7 +262,7 @@ const PhilippinesMapJSX = ({
 							strokeWidth="0.75"
 							fontSize="16"
 						>
-              Level: 5
+							{/* Level: 5 */}
 						</tspan>
 					</text>
 					<text
@@ -287,7 +287,7 @@ const PhilippinesMapJSX = ({
 							strokeWidth="0.75"
 							fontSize="16"
 						>
-              Level: 3
+							{/* Level: 3 */}
 						</tspan>
 					</text>
 					<text
@@ -312,7 +312,7 @@ const PhilippinesMapJSX = ({
 							strokeWidth="0.75"
 							fontSize="16"
 						>
-              Level: 2
+							{/* Level: 2 */}
 						</tspan>
 					</text>
 					<text
@@ -337,7 +337,7 @@ const PhilippinesMapJSX = ({
 							strokeWidth="0.75"
 							fontSize="16"
 						>
-              Level: 1
+							{/* Level: 1 */}
 						</tspan>
 					</text>
 					<text
@@ -362,7 +362,7 @@ const PhilippinesMapJSX = ({
 							strokeWidth="0.75"
 							fontSize="16"
 						>
-              Level: 0
+							{/* Level: 0 */}
 						</tspan>
 					</text>
 					<text
@@ -387,7 +387,7 @@ const PhilippinesMapJSX = ({
 							strokeWidth="0.75"
 							fontSize="16"
 						>
-              Stayed there
+              May klase/nagklase na
 						</tspan>
 					</text>
 					<text
@@ -412,7 +412,7 @@ const PhilippinesMapJSX = ({
 							strokeWidth="0.75"
 							fontSize="16"
 						>
-              Lived there
+              Nakatulog na ko dito
 						</tspan>
 					</text>
 					<text
@@ -437,7 +437,7 @@ const PhilippinesMapJSX = ({
 							strokeWidth="0.75"
 							fontSize="16"
 						>
-              Visited there
+              Nagreview/gumawa ng assignment
 						</tspan>
 					</text>
 					<text
@@ -462,7 +462,7 @@ const PhilippinesMapJSX = ({
 							strokeWidth="0.75"
 							fontSize="16"
 						>
-              Alighted there
+              May hinintay/sinundo/hinatid
 						</tspan>
 					</text>
 					<text
@@ -487,7 +487,7 @@ const PhilippinesMapJSX = ({
 							strokeWidth="0.75"
 							fontSize="16"
 						>
-              Passed there
+              Dumaan lang
 						</tspan>
 					</text>
 					<text
@@ -512,7 +512,7 @@ const PhilippinesMapJSX = ({
 							strokeWidth="0.75"
 							fontSize="16"
 						>
-              Never been there
+              Saan to?
 						</tspan>
 					</text>
 					<text
@@ -537,7 +537,7 @@ const PhilippinesMapJSX = ({
 							strokeWidth="0.462"
 							textAnchor="middle"
 						>
-              Philippines Level {totalLevel}
+              QCU SB Campus Level {totalLevel}
 						</tspan>
 					</text>
 				</g>
