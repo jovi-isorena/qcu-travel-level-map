@@ -1,5 +1,6 @@
 const PROVINCE_LEVEL_FILLS = [
 	'white',
+	'99ccff',
 	'#3598db',
 	'#30cc70',
 	'#f3c218',
@@ -8,13 +9,13 @@ const PROVINCE_LEVEL_FILLS = [
 ];
 
 const MENU_OPTIONS = [
-	{ label: 'Nakatulog na ko dito', level: 6, fill: '#e84c3d' },
-	{ label: 'May klase/nagklase na', level: 5, fill: '#d58337' },
-	{ label: 'Nagreview/gumawa ng assignment', level: 4, fill: '#f3c218' },
-	{ label: 'Kumain na dito', level: 3, fill: '#30cc70' },
-	{ label: 'May hinintay/sinundo/hinatid', level: 2, fill: '#3598db' },
-	{ label: 'Dumaan lang', level: 1, fill: '99ccff' },
-	{ label: 'Saan to?', level: 0, fill: 'white' },
+	{ label: 'Nakatulog dito', level: 6, fill: '#e84c3d' , description: 'Inantok, nakaidlip, malalim na pagtulog.'},
+	{ label: 'Nag-aral dito', level: 5, fill: '#d58337', description:'Nag-review, nagbasa, gumawa ng assignment, nagklase na.' },
+	{ label: 'May extra-curricular dito', level: 4, fill: '#f3c218' , description: 'Kumain ng breakfast, lunch, meryenda or dinner.'},
+	{ label: 'Kumain dito', level: 3, fill: '#30cc70' , description: 'Kumain ng breakfast, lunch, meryenda or dinner.'},
+	{ label: 'Naghintay dito', level: 2, fill: '#3598db', description: 'May hinintay, sinundo, o hinatid.' },
+	{ label: 'Dumaan dito', level: 1, fill: '99ccff' , description: 'Naglakad lang dito.'},
+	{ label: 'Saan to?', level: 0, fill: 'white' , description: 'Never pa nakarating o hindi alam na may ganitong lugar'},
 ];
 
 // The order of this array is strictly important as it's used in encoding/decoding URL

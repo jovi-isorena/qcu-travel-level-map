@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { PROVINCES, PROVINCE_LEVEL_FILLS } from './utils/constants';
+import { PROVINCES, PROVINCE_LEVEL_FILLS, MENU_OPTIONS } from './utils/constants';
 
 
 const MapTooltip = ({ visible, position, content }) => {
@@ -129,7 +129,7 @@ const PhilippinesMapJSX = ({
 					<rect
 						id="rect385"
 						width="196.299"
-						height="132.998"
+						height="162.998"
 						x="544.363"
 						y="159.803"
 						fill="#fff"
@@ -138,383 +138,53 @@ const PhilippinesMapJSX = ({
 						display="inline"
 						ry="6.754"
 					></rect>
-					<rect
-						id="rect1963"
-						width="25.835"
-						height="17.926"
-						x="530.263"
-						y="145.262"
-						fill="#e84c3d"
-						fillOpacity="1"
-						stroke="#000"
-						strokeWidth="0.525"
-						ry="4.118"
-						transform="matrix(.6117 0 0 .62154 230.623 86.575)"
-					></rect>
-					<rect
-						id="rect1963-1"
-						width="25.835"
-						height="17.926"
-						x="530.263"
-						y="175.262"
-						fill="#d58337"
-						fillOpacity="1"
-						stroke="#000"
-						strokeWidth="0.525"
-						ry="4.118"
-						transform="matrix(.6117 0 0 .62154 230.623 86.575)"
-					></rect>
-					<rect
-						id="rect1963-1-2"
-						width="25.835"
-						height="17.926"
-						x="530.263"
-						y="205.262"
-						fill="#f3c218"
-						fillOpacity="1"
-						stroke="#000"
-						strokeWidth="0.525"
-						ry="4.118"
-						transform="matrix(.6117 0 0 .62154 230.623 86.575)"
-					></rect>
-					<rect
-						id="rect1963-3"
-						width="25.835"
-						height="17.926"
-						x="530.676"
-						y="235.262"
-						fill="#30cc70"
-						fillOpacity="1"
-						stroke="#000"
-						strokeWidth="0.525"
-						ry="4.118"
-						transform="matrix(.6117 0 0 .62154 230.623 86.575)"
-					></rect>
-					<rect
-						id="rect1963-1-8"
-						width="25.835"
-						height="17.926"
-						x="530.676"
-						y="265.263"
-						fill="#3598db"
-						fillOpacity="1"
-						stroke="#000"
-						strokeWidth="0.525"
-						ry="4.118"
-						transform="matrix(.6117 0 0 .62154 230.623 86.575)"
-					></rect>
-					<rect
-						id="rect1963-1-2-1"
-						width="25.835"
-						height="17.926"
-						x="530.676"
-						y="295.263"
-						fill="#fff"
-						stroke="#000"
-						strokeWidth="0.525"
-						ry="4.118"
-						transform="matrix(.6117 0 0 .62154 230.623 86.575)"
-					></rect>
-					<text
-						id="text2045-3-8"
-						x="723.828"
-						y="189.117"
-						fill="#fff"
-						stroke="#000"
-						strokeWidth="0.525"
-						fontSize="16"
-						transform="matrix(.6117 0 0 .62154 230.623 86.575)"
-						xmlSpace="preserve"
-					>
-						<tspan
-							id="tspan2047-4-6"
-							x="723.828"
-							y="189.117"
-							fill="#000"
-							fillOpacity="1"
-							stroke="none"
-							strokeDasharray="none"
-							strokeWidth="0.75"
-							fontSize="16"
-						>
-							{/* Level: 4 */}
-						</tspan>
-					</text>
-					<text
-						id="text2045-3-8-4"
-						x="723.828"
-						y="159.117"
-						fill="#fff"
-						stroke="#000"
-						strokeWidth="0.525"
-						fontSize="16"
-						transform="matrix(.6117 0 0 .62154 230.623 86.575)"
-						xmlSpace="preserve"
-					>
-						<tspan
-							id="tspan2047-4-6-1"
-							x="723.828"
-							y="159.117"
-							fill="#000"
-							fillOpacity="1"
-							stroke="none"
-							strokeDasharray="none"
-							strokeWidth="0.75"
-							fontSize="16"
-						>
-							{/* Level: 5 */}
-						</tspan>
-					</text>
-					<text
-						id="text2045-3-7"
-						x="723.828"
-						y="219.117"
-						fill="#fff"
-						stroke="#000"
-						strokeWidth="0.525"
-						fontSize="16"
-						transform="matrix(.6117 0 0 .62154 230.623 86.575)"
-						xmlSpace="preserve"
-					>
-						<tspan
-							id="tspan2047-4-1"
-							x="723.828"
-							y="219.117"
-							fill="#000"
-							fillOpacity="1"
-							stroke="none"
-							strokeDasharray="none"
-							strokeWidth="0.75"
-							fontSize="16"
-						>
-							{/* Level: 3 */}
-						</tspan>
-					</text>
-					<text
-						id="text2045-3-84"
-						x="723.828"
-						y="249.117"
-						fill="#fff"
-						stroke="#000"
-						strokeWidth="0.525"
-						fontSize="16"
-						transform="matrix(.6117 0 0 .62154 230.623 86.575)"
-						xmlSpace="preserve"
-					>
-						<tspan
-							id="tspan2047-4-9"
-							x="723.828"
-							y="249.117"
-							fill="#000"
-							fillOpacity="1"
-							stroke="none"
-							strokeDasharray="none"
-							strokeWidth="0.75"
-							fontSize="16"
-						>
-							{/* Level: 2 */}
-						</tspan>
-					</text>
-					<text
-						id="text2045-3-73"
-						x="723.828"
-						y="279.117"
-						fill="#fff"
-						stroke="#000"
-						strokeWidth="0.525"
-						fontSize="16"
-						transform="matrix(.6117 0 0 .62154 230.623 86.575)"
-						xmlSpace="preserve"
-					>
-						<tspan
-							id="tspan2047-4-10"
-							x="723.828"
-							y="279.117"
-							fill="#000"
-							fillOpacity="1"
-							stroke="none"
-							strokeDasharray="none"
-							strokeWidth="0.75"
-							fontSize="16"
-						>
-							{/* Level: 1 */}
-						</tspan>
-					</text>
-					<text
-						id="text2045-3-2"
-						x="723.828"
-						y="309.117"
-						fill="#fff"
-						stroke="#000"
-						strokeWidth="0.525"
-						fontSize="16"
-						transform="matrix(.6117 0 0 .62154 230.623 86.575)"
-						xmlSpace="preserve"
-					>
-						<tspan
-							id="tspan2047-4-3"
-							x="723.828"
-							y="309.117"
-							fill="#000"
-							fillOpacity="1"
-							stroke="none"
-							strokeDasharray="none"
-							strokeWidth="0.75"
-							fontSize="16"
-						>
-							{/* Level: 0 */}
-						</tspan>
-					</text>
-					<text
-						id="text2045-5"
-						x="569.215"
-						y="189.117"
-						fill="#fff"
-						stroke="#000"
-						strokeWidth="0.525"
-						fontSize="16"
-						transform="matrix(.6117 0 0 .62154 230.623 86.575)"
-						xmlSpace="preserve"
-					>
-						<tspan
-							id="tspan2047-8"
-							x="569.215"
-							y="189.117"
-							fill="#000"
-							fillOpacity="1"
-							stroke="none"
-							strokeDasharray="none"
-							strokeWidth="0.75"
-							fontSize="16"
-						>
-              May klase/nagklase na
-						</tspan>
-					</text>
-					<text
-						id="text2045-5-9"
-						x="569.215"
-						y="159.117"
-						fill="#fff"
-						stroke="#000"
-						strokeWidth="0.525"
-						fontSize="16"
-						transform="matrix(.6117 0 0 .62154 230.623 86.575)"
-						xmlSpace="preserve"
-					>
-						<tspan
-							id="tspan2047-8-2"
-							x="569.215"
-							y="159.117"
-							fill="#000"
-							fillOpacity="1"
-							stroke="none"
-							strokeDasharray="none"
-							strokeWidth="0.75"
-							fontSize="16"
-						>
-              Nakatulog na ko dito
-						</tspan>
-					</text>
-					<text
-						id="text2045-2"
-						x="569.848"
-						y="219.117"
-						fill="#fff"
-						stroke="#000"
-						strokeWidth="0.525"
-						fontSize="16"
-						transform="matrix(.6117 0 0 .62154 230.623 86.575)"
-						xmlSpace="preserve"
-					>
-						<tspan
-							id="tspan2047-9"
-							x="569.848"
-							y="219.117"
-							fill="#000"
-							fillOpacity="1"
-							stroke="none"
-							strokeDasharray="none"
-							strokeWidth="0.75"
-							fontSize="16"
-						>
-              Nagreview/gumawa ng assignment
-						</tspan>
-					</text>
-					<text
-						id="text2045-8"
-						x="569.848"
-						y="249.117"
-						fill="#fff"
-						stroke="#000"
-						strokeWidth="0.525"
-						fontSize="16"
-						transform="matrix(.6117 0 0 .62154 230.623 86.575)"
-						xmlSpace="preserve"
-					>
-						<tspan
-							id="tspan2047-2"
-							x="569.848"
-							y="249.117"
-							fill="#000"
-							fillOpacity="1"
-							stroke="none"
-							strokeDasharray="none"
-							strokeWidth="0.75"
-							fontSize="16"
-						>
-              May hinintay/sinundo/hinatid
-						</tspan>
-					</text>
-					<text
-						id="text2045-0"
-						x="568.828"
-						y="279.117"
-						fill="#fff"
-						stroke="#000"
-						strokeWidth="0.525"
-						fontSize="16"
-						transform="matrix(.6117 0 0 .62154 230.623 86.575)"
-						xmlSpace="preserve"
-					>
-						<tspan
-							id="tspan2047-7"
-							x="568.828"
-							y="279.117"
-							fill="#000"
-							fillOpacity="1"
-							stroke="none"
-							strokeDasharray="none"
-							strokeWidth="0.75"
-							fontSize="16"
-						>
-              Dumaan lang
-						</tspan>
-					</text>
-					<text
-						id="text2045-4"
-						x="568.828"
-						y="309.117"
-						fill="#fff"
-						stroke="#000"
-						strokeWidth="0.525"
-						fontSize="16"
-						transform="matrix(.6117 0 0 .62154 230.623 86.575)"
-						xmlSpace="preserve"
-					>
-						<tspan
-							id="tspan2047-85"
-							x="568.828"
-							y="309.117"
-							fill="#000"
-							fillOpacity="1"
-							stroke="none"
-							strokeDasharray="none"
-							strokeWidth="0.75"
-							fontSize="16"
-						>
-              Saan to?
-						</tspan>
-					</text>
+					{MENU_OPTIONS.map(({ label, level, fill }) => (
+						<>
+							<rect
+								key = {level}
+								id="rect1963"
+								width="25.835"
+								height="17.926"
+								x="530.263"
+								y={325.262 - (30*level)}
+								fill={fill}
+								fillOpacity="1"
+								stroke="#000"
+								strokeWidth="0.525"
+								ry="4.118"
+								transform="matrix(.6117 0 0 .62154 230.623 86.575)"
+							></rect>
+							<text
+								id="text2045-4"
+								x="568.828"
+								y="309.117"
+								fill="#fff"
+								stroke="#000"
+								strokeWidth="0.525"
+								fontSize="16"
+								transform="matrix(.6117 0 0 .62154 230.623 86.575)"
+								xmlSpace="preserve"
+							>
+								<tspan
+									id="tspan2047-85"
+									x="568.828"
+									y={340.262 - (30*level)}
+									fill="#000"
+									fillOpacity="1"
+									stroke="none"
+									strokeDasharray="none"
+									strokeWidth="0.75"
+									fontSize="16"
+								>
+									{label}
+								</tspan>
+							</text>
+						</>
+					))}
+					
+					
+					
+					
 					<text
 						xmlSpace="preserve"
 						style={{ WebkitTextAlign: 'center', textAlign: 'center' }}
